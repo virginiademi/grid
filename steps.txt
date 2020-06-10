@@ -1,0 +1,12 @@
+
+1. have an account on github
+2. access travis-ci.com and link the account to your github account
+
+3. create a new repo on github
+   named 'grid'
+
+4. allow travis-ci access to the repository
+4.5 create a repository
+5. push code to github
+
+6. see the results
