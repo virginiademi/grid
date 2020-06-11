@@ -120,7 +120,7 @@ class Cell():
             self._neighbours += 1
 
         # Cell isn't on right edge.
-        if self._x < w-1:
+        if self._x < h-1:
             self._neighbour_list[1] = self._x + 1
             self._neighbours += 1
 
@@ -130,7 +130,7 @@ class Cell():
             self._neighbours += 1
 
         # Cell isn't on top edge.
-        if self._y < w:
+        if self._y < w-1:
             self._neighbour_list[3] = self._y + 1
             self._neighbours += 1
 
